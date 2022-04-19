@@ -13,13 +13,13 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: hello-world-1
+            name: hello-world-one
             port:
               number: 80
       - path: /v2
         pathType: Prefix
         backend:
           service:
-            name: hello-world-2
+            name: hello-world-two
             port:
               number: 80
