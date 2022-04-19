@@ -5,7 +5,7 @@ metadata:
 spec:
   scaleTargetRef:
     kind:          Deployment                       # Optional. Default: Deployment
-    name:          hello-world-deployment-1         # Mandatory. Must be in the same namespace as the ScaledObject
+    name:          hello-world-one                  # Mandatory. Must be in the same namespace as the ScaledObject
   pollingInterval:  15                              # Optional. Default: 30 seconds
   cooldownPeriod:   30                              # Optional. Default: 300 seconds
   minReplicaCount:  1                               # Optional. Default: 0
