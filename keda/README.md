@@ -10,7 +10,7 @@ helm upgrade --install keda kedacore/keda -n keda
 
 ## Deploy sample app
 
-[hello-world](../hello-world/)
+[sample hello-world](../manifests/hello-world)
 
 ## Config ScaledObject
 
