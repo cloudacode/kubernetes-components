@@ -24,6 +24,15 @@ ingress                    |  +---+
 
 ## Apply resources
 
+### Deploy resources via kustomization (recommend)
+```bash
+kubectl apply -k ./
+# or kubectl kustomize . | kubectl apply -f -
+```
+
+### Deploy resources manually one by one
+if you have deployed the resources via kustomize previously, you don't need to deploy resources again.
+
 ```bash
 # hello world namespaces
 kubectl create ns hello-world
